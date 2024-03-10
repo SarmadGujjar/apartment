@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Main1 {
+    width: 20vw;
+    background-color: rgb(123, 122, 122);
+    color: white;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.Main2 {
+    width: 50vw;
+    margin-left: 10px;
+}
+
+.rental {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.forms input {
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: start;
+
+}
+
+.forms {
+    padding: 0 15px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+.forms form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.srchav {
+    background-color: green;
+    color: white;
+    display: grid;
+    padding: 7px;
+    font-size: 16px;
+}
+
+.srchav:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.asc {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    /* padding: 20px; */
+    margin: 20px;
+}
+
+.i1 {
+    display: flex;
+    gap: 10px;
+    margin-left: 3px;
+}
+
+.i2 {
+    display: flex;
+    gap: 10px;
+}
+
+.i3 {
+    display: flex;
+    gap: 10px;
+    margin-left: 3px;
+}
+
+.apr {
+    color: green;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.img1 {
+    display: flex;
+}
+
+.img1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 7px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    gap: 10px;
+}
+
+.space {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sp {
+    font-weight: 1000;
+}
+
+.spc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 15px;
+
+}
+
+.amenities {
+    gap: 7px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.am {
+    font-weight: 1000;
+}
+
+.rl {
+    font-weight: 1000;
+}
+
+.cn {
+    font-weight: 1000;
+}
+
+.amn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.ef {
+    font-weight: 1000;
+}
+
+.info {
+    gap: 7px;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.rule {
+    margin-top: 10px;
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cribe {
+    background-color: green;
+    color: white;
+    width: 15vw;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+}
+
+.cribe:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+.chicago {
+    gap: 10px;
+}
+
+.lform input {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.lmsg {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 15px;
+    width: 17vw;
+    border-radius: 20px;
+}
+
+.lmsg:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+    .Main1 {
+        width: 30vw;
+    }
+}
+
+/* Phone */
+@media screen and (max-width: 500px) {
+    body {
+        flex-direction: column;
+    }
+
+    .Main1 {
+        width: 100%;
+    }
+
+    .Main2 {
+        width: 100%;
+    }
+}
